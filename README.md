@@ -1,4 +1,4 @@
 # Hello in my project! 👋👋
 Crypto-Chat
-> Abstract of the project or small introduction of what the project is about
+> End-to-end encrypted chat using Redis, Socket.io, React, Docker, and Express. Messages are encrypted with asynchronous keys. The RSA algorithm was used.
 <hr>
