@@ -27,4 +27,5 @@ Crypto-Chat
 Due to the use of the RSA algorithm, private and public keys can be used interchangeably, which I also used in this application. A private key is used to generate the QR code.
 
 # <a name="technologies"></a>Technologies
-To ensure the greatest possible security of messages, a Redis cache is used. As soon as all users leave the chat, the entire room with sent messages is deleted. Additionally, each chat user can clear the chat history at any time.In order to connect the frontend and backend together, I used Docker-compose, and the Socket.io technology is used for sending messages
+To ensure the greatest possible security of messages, a Redis cache is used. As soon as all users leave the chat, the entire room with sent messages is deleted. Additionally, each chat user can clear the chat history at any time.
+I used Docker-compose to connect it together. Socket.io technology is used to send messages
