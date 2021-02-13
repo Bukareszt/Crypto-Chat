@@ -1,5 +1,5 @@
-import crypto from 'crypto';
-import qrcode from 'qrcode';
+import crypto from "crypto";
+import qrcode from "qrcode";
 
 export interface IKeysFromCrypto {
   publicKey: string;
@@ -26,15 +26,15 @@ export class CryptoHandler {
   }
 
   private static generateKeys() {
-    const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
+    const { privateKey, publicKey } = crypto.generateKeyPairSync("rsa", {
       modulusLength: 1000,
       publicKeyEncoding: {
-        type: 'spki',
-        format: 'pem',
+        type: "spki",
+        format: "pem",
       },
       privateKeyEncoding: {
-        type: 'pkcs8',
-        format: 'pem',
+        type: "pkcs8",
+        format: "pem",
       },
     });
     const asynchronicKeys: IKeysFromCrypto = {
