@@ -10,5 +10,7 @@ Crypto-Chat
 
 # <a name="how-to-use"></a>How to use
 <img src="./readmesrc/login.png"> 
-1. Give yourself a nice username.
-2. Enter the room you want to communicate in. Remember that the application does not have a list of rooms saved anywhere, they are created ad hoc. If you want to talk about something super secret with a friend, remember - you both have to enter the exact name of the room.
+1. Give yourself a nice username.  Don't worry too much if you have no idea. The application itself will generate a nickname referring to Star Wars.<br />
+2. Enter the room you want to communicate in. Remember that the application does not have a list of rooms saved anywhere, they are created ad hoc. If you want to talk about something super secret with a friend, remember - you both have to enter the exact name of the room.<br />
+
+<img src="./readmesrc/chat1.png"> 
