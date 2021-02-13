@@ -10,7 +10,7 @@ services:
       - redisdb
 
   react:
-    build: "./frontend"
+    build: "./reactfront"
     ports:
       - "3000:3000"
     links:
