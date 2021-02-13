@@ -9,4 +9,4 @@ Crypto-Chat
 
 
 # <a name="how-to-use"></a>How to use
-[Contribution guidelines for this project](readmesrc/login.jpg)
+[Contribution guidelines for this project](readmesrc/login.png)
