@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  express:
+    build: "./backend"
+    image: backend
+    ports:
+      - "3001:3001"
+    links:
+      - redisdb
+
+  react:
+    build: "./frontend"
+    ports:
+      - "3000:3000"
+    links:
+      - express
+
+  redisdb:
+    image: "redis"
+    expose:
+      - "6379"
